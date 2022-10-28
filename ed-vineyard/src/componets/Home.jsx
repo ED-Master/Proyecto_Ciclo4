@@ -13,7 +13,7 @@ export function Home(){
                 </div>
                 <div>
                     <h6>Vista del Cliente</h6>
-                    <button><Link to="/Clientes">Cliente</Link></button>
+                    <button><Link to="/Cliente">Cliente</Link></button>
                 </div>
             </section>
             <Outlet/>
