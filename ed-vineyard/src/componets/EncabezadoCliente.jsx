@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom"
+import { Outlet, Link, useRouteMatch, useParams} from "react-router-dom"
 
 export function EncabezadoCliente(){
     return(
@@ -6,8 +6,8 @@ export function EncabezadoCliente(){
         <header className="header-principal">
                 <h4>ED VINYARD</h4>
                 <nav>
-                    <Link to="/ProductosCliente">Lista Productos</Link>
-                    <Link to="/Carrito">Carrito</Link>
+                    <Link to="/Cliente/ProductosCliente">Lista Productos</Link>
+                    <Link to="/Cliente/Carrito">Carrito</Link>
                 </nav>
             </header>
 
