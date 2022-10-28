@@ -1,0 +1,26 @@
+[
+    {
+        "nombre":"Vino 1",
+        "descrip":"De alta calidad",
+        "precio":85000,
+        "stock":"20"
+    },
+    {
+        "nombre":"Vino 2",
+        "descrip":"De calidad media",
+        "precio":45800,
+        "stock":"67"
+    },
+    {
+        "nombre":"Vino 3",
+        "descrip":"De baja calidad",
+        "precio":28900,
+        "stock":"139"
+    },
+    {
+        "nombre":"Vino 4",
+        "descrip":"Vino para cocinar",
+        "precio":38900,
+        "stock":"120"
+    }
+]
