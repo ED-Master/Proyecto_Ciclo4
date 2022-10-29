@@ -1,0 +1,23 @@
+[
+    {
+        "img":"",
+        "cant":0,
+        "prod":"",
+        "valor":0,
+        "Total":0
+    },
+    {
+        "img":"",
+        "cant":2,
+        "prod":"Vino 1",
+        "valor":10,
+        "Total":20
+    },
+    {
+        "img":"",
+        "cant":3,
+        "prod":"Vino 2",
+        "valor":5,
+        "Total":15
+    }
+]

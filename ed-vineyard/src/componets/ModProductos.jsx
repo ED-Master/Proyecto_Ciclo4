@@ -1,4 +1,6 @@
-import productos from "../productos.json"
+import productos from "../productos.json";
+import imagen from "../img/logo192.png";
+import "../styles/ModProductos.css"
 
 // A D M I N I S T R A D O R
 
@@ -9,8 +11,9 @@ export function ModProductos(){
  
     // En la línea 13 nos falta obtener los valores del producto para pasarselos al input y desde ahí poder modificarlo
     return(
-        <div>
-            <h4>MODIFICAR PRODUCTOS</h4>
+        <div className="container">
+        <h4>MODIFICAR PRODUCTOS</h4>
+        <div  className="container-ModPr">
             <div className="Lista-prod">
                 <h6>Productos</h6>
                 <ol>
@@ -20,9 +23,9 @@ export function ModProductos(){
                 </ol>
             </div>
             <div className="imagen">
-                <img src="" alt="" />
+                <img src={imagen} alt="" />
             </div>
-            <div>
+            <div className="form">
                 <form action="">
                     <label htmlFor="">Nombre: </label>
                     <input type="text"></input><br />
@@ -34,6 +37,7 @@ export function ModProductos(){
                     <input type="number"></input>
                 </form>
             </div>
+        </div>
         </div>
     );
 }

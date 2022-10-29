@@ -1,0 +1,58 @@
+.container{
+    align-items: center;
+    justify-content: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container h4{
+    top: -35%;
+}
+
+.container-ModPr{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    top: 30%;
+}
+
+.Lista-prod{
+    margin-left: 100px;
+}
+
+.Lista-prod a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1.1em;
+    
+}
+.Lista-prod a:hover{
+    color: rgb(114, 75, 69);
+}
+.Lista-prod li:hover{
+    color: rgb(114, 75, 69);
+}
+
+.imagen{
+    width: 250px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+
+.form{
+    margin-right: 100px;
+    margin-top: 5%;
+}
+
+input{
+    margin-left: 10px;
+}

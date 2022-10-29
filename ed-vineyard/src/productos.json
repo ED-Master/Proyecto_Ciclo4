@@ -3,24 +3,42 @@
         "nombre":"Vino 1",
         "descrip":"De alta calidad",
         "precio":85000,
-        "stock":"20"
+        "stock":"20",
+        "img":"..img/Copanegra.png"
     },
     {
         "nombre":"Vino 2",
         "descrip":"De calidad media",
         "precio":45800,
-        "stock":"67"
+        "stock":"67",
+        "img":"..img/Copanegra.png"
     },
     {
         "nombre":"Vino 3",
         "descrip":"De baja calidad",
         "precio":28900,
-        "stock":"139"
+        "stock":"139",
+        "img":"..img/Copanegra.png"
     },
     {
         "nombre":"Vino 4",
         "descrip":"Vino para cocinar",
         "precio":38900,
-        "stock":"120"
+        "stock":"120",
+        "img":"..img/Copanegra.png"
+    },
+    {
+        "nombre":"Vino 5",
+        "descrip":"Champagne",
+        "precio":67900,
+        "stock":"140",
+        "img":"..img/Copanegra.png"
+    },
+    {
+        "nombre":"Vino 6",
+        "descrip":"Vino local",
+        "precio":19900,
+        "stock":"270",
+        "img":"..img/Copanegra.png"
     }
 ]

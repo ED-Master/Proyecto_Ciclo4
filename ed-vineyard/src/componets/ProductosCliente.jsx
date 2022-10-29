@@ -2,34 +2,44 @@ import { Lista } from "./Lista"
 import productos from "../productos.json"
 import imagen from "../img/logo192.png"
 import { useState } from "react";
+import "../styles/Lista.css";
+import { Swiper, SwiperSlide} from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
 export function ProductosCliente(){
-    const modelo = {};
-    
-    const [prodCarr, modProdCarr] = useState(modelo);
 
-    const evento = (e) =>{
-        //console.log(e);
-        modProdCarr(e);
-        console.log(prodCarr);
-    }
-    
     return(
-        <div>
-            {/* <Lista></Lista> */}
-            <div>
-                <h4>LISTA PRODUCTOS CLIENTE</h4>
-                {productos.map(p =>(
-                    <div className="producto">
-                        <img src={imagen} alt="" width="40px"/>
-                        <h5>{p.nombre}</h5>
-                        <p>${p.precio}</p>
-                        <p>Stock: {p.stock}</p>
-                        <button onClick={() => evento(p)}>Comprar</button>
-                    </div>        
-                ))};
+        <div className="container">
+            <h2>LISTA PRODUCTOS</h2>
+            <div className="swiper-container">
+                <Swiper
+                    modules={[Navigation, Pagination, Scrollbar, A11y]}
+                    spaceBetween={50}
+                    slidesPerView={3}
+                    navigation
+                    pagination={{ clickable: true }}
+                    scrollbar={{ draggable: true }}
+                    onSlideChange={() => console.log("slide change")}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    >
+                    {productos.map(p =>(
+                        <SwiperSlide key={p.nombre} className="slide">
+                            <div className="producto">
+                                <div className="imagen">
+                                    <img src={p.img} alt="" />
+                                </div>
+                                <h5>{p.nombre}</h5>
+                                <p>{p.descrip}</p>
+                                <p>${p.precio}</p>
+                                <p>Stock: {p.stock}</p>
+                                <button onClick={() =>console.log(p)} className="btn-comp">Comprar</button>
+                            </div>        
+                        </SwiperSlide>
+                    ))};
+                </Swiper>
             </div>
         </div>
+        
     );
 }
 // onClick={() => modProdCarr(p)}
