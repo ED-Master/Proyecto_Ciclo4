@@ -1,0 +1,24 @@
+header{
+    font-style: italic;
+    text-align: center;
+}
+
+button{
+    
+    color: black;
+}
+
+.section{
+    position: absolute;
+    
+}
+
+.Admin{
+    position: relative;
+    
+}
+
+.User{
+    position: relative;
+    
+}
