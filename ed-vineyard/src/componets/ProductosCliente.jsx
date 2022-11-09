@@ -42,4 +42,3 @@ export function ProductosCliente(){
         
     );
 }
-// onClick={() => modProdCarr(p)}
