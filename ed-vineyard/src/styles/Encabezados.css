@@ -1,3 +1,6 @@
+body{
+    background-image: url(../img/fondoTablas.jpeg);
+}
 .header-principal{
     display: flex;
     flex-direction: row;

@@ -1,5 +1,14 @@
 h2{
     font-style: italic;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+
+.h2-carrito{
+    position: relative;
+    top: 10px;
 }
 
 img{
@@ -12,4 +21,12 @@ img{
 
 button{
     margin: 5px;
+}
+
+tbody{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+td{
+    font-weight: bold;
 }

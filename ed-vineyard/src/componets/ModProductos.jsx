@@ -27,13 +27,13 @@ export function ModProductos(){
             </div>
             <div className="form">
                 <form action="">
-                    <label htmlFor="">Nombre: </label>
+                    <label htmlFor="">Nombre: </label><br />
                     <input type="text"></input><br />
-                    <label htmlFor="">Descripción: </label>
+                    <label htmlFor="">Descripción: </label><br />
                     <input type="text"></input><br />
-                    <label htmlFor="">Precio: </label>
+                    <label htmlFor="">Precio: </label><br />
                     <input type="number"></input><br />
-                    <label htmlFor="">Stock:</label>
+                    <label htmlFor="">Stock:</label><br />
                     <input type="number"></input>
                 </form>
             </div>

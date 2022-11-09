@@ -6,6 +6,7 @@ import productos from "../productos.json";
 import imagen from "../img/logo192.png";
 import "../styles/Lista.css";
 
+
 // A D M I N I S T R A D O R
 
 
@@ -30,7 +31,8 @@ export function Lista(){
                         <SwiperSlide key={p.nombre} className="slide">
                             <div className="producto">
                                 <div className="imagen">
-                                    <img src={p.img} alt="" />
+                                    <img src={imagen} alt="" />
+                                    {console.log(p)}
                                 </div>
                                 <h5>{p.nombre}</h5>
                                 <p>{p.descrip}</p>

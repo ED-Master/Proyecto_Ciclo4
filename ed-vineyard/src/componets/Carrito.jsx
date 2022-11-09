@@ -6,7 +6,7 @@ export function Carrito(){
     return(
         <div className="container">
             
-            <h2>CARRITO</h2>
+            <h2 className="h2-carrito">CARRITO</h2>
             <table>
                 <thead>
                     <tr>
