@@ -1,7 +1,4 @@
-import { Lista } from "./Lista"
 import productos from "../productos.json"
-import imagen from "../img/logo192.png"
-import { useState } from "react";
 import "../styles/Lista.css";
 import { Swiper, SwiperSlide} from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";

@@ -1,4 +1,4 @@
-import { Outlet, Link, useRouteMatch, useParams} from "react-router-dom"
+import { Outlet, Link} from "react-router-dom"
 import "../styles/Encabezados.css"
 import imagen from "../img/Logo Vineyard.png" 
 

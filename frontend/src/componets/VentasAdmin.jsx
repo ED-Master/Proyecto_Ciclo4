@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import ventas from "../listVentas.json"
 import { TotalVentas } from "./TotalVentas";
 import "../styles/VentasAdmin.css"
